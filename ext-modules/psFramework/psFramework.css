@@ -1,0 +1,62 @@
+.ps-title-bar{
+    background-color:white;
+    padding: 0 20;
+    border-bottom: 2px solid black;
+
+}
+.ps-title-area{
+
+    display: inline-block;
+   
+   
+}
+.ps-icon{
+
+    display: inline-block;
+    height:50px;
+    width:50px;
+    margin:5px;
+    vertical-align: top;
+    border: 1px solid grey;
+
+
+}
+.ps-logo-title{
+
+color:black;
+font-size: 50px;
+margin-top: 20px
+
+}
+
+
+.ps-logo-subtitle{
+color:grey;
+font-size: 25px;
+margin-top: -18px 
+}
+
+
+.ps-right-side-controls{
+    line-height: 140px;
+
+}
+
+.ps-right-side-controls > div{
+
+    text-align: right;
+
+}
+
+
+@media screen and (min-width:768px){
+    .ps-right-side-controls > div{
+
+        text-align: center;
+    }
+
+    .ps-logo-area{
+        text-align: left;
+    }
+
+}

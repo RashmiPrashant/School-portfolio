@@ -1,0 +1,23 @@
+<div class="ps-title-bar">
+    <div class="row">
+        <div class="ps-logo-area col-sm-6">
+            <img class="ps-icon" ng-src="{{iconFile}}" />
+            <div>
+                <p class="ps-logo-title">{{title}}</p>
+                <p class="ps-logo-subtitle">{{subtitle}}</p>
+            </div>
+        </div>
+        <div class="ps-right-side-controls col-sm-6"> 
+            <div>
+                <button class="btn">About the Author</button>
+                <button class="btn">Projects</button>
+                <button class="btn">Contact</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-transclude></div>
+<div style="position:absolute; left:220px; top:400px; color:red;font-size:45px;">
+    {{routeString}}
+</div>
